@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
-export default function InputForm() {
+export default function InputForm1() {
   const [test1Message, setTest1Message] = useState(
     'Submit your output to check if it is correct.'
   );

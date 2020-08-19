@@ -1,7 +1,8 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
-import CodeText from './components/ChallengeExplanation1';
-import InputForm from './components/InputForm';
+import Nav from './components/Nav';
+import CodeChallenge1 from './components/CodeChallenge1';
 
 function App() {
   return (
@@ -9,13 +10,11 @@ function App() {
       <header className="App-header">
         <h1>Code Challenge Time!</h1>
       </header>
+      <Nav />
       <main>
-        <CodeText />
-        <h2>
-          After creating your algorithm in your favorite IDE,
-          <br /> submit the output that you get using the following inputs:
-        </h2>
-        <InputForm />
+        <Route>
+          <Route path="/codeChallenge1" component={CodeChallenge1} />
+        </Route>
       </main>
     </div>
   );

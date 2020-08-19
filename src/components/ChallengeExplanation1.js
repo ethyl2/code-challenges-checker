@@ -7,8 +7,7 @@ function ChallengeExplanation1() {
       <h2>
         Given an object/dictionary with keys and values that consist of both
         strings and integers,
-      </h2>{' '}
-      <h2>
+        <br />
         design an algorithm to calculate and return the sum of all of the
         numeric values.
       </h2>
