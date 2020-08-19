@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ChallengeExplanation1() {
+export default function ChallengeExplanation2() {
   return (
     <div>
       <h1>Summing Values from a Dictionary</h1>
@@ -9,7 +9,7 @@ function ChallengeExplanation1() {
         strings and integers,
         <br />
         design an algorithm to calculate and return the sum of all of the
-        numeric values.
+        numeric values and keys.
       </h2>
       <p>
         Verbalize your thought process as much as possible before writing any
@@ -29,10 +29,9 @@ function ChallengeExplanation1() {
         <code>{'\u007d'}</code>
       </div>
       <p>
-        Running your algorithm should output <span>41</span>, the sum of the
-        values 23 and 18.
+        Your algorithm should return <span>150</span>, the sum of the values 23,
+        19, 18, and 90.
       </p>
     </div>
   );
 }
-export default ChallengeExplanation1;

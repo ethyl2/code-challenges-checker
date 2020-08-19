@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import CodeChallenge1 from './components/CodeChallenge1';
+import CodeChallenge2 from './components/CodeChallenge2';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Route exact path="/" component={Home} />
         <Route path="/codeChallenge1" component={CodeChallenge1} />
+        <Route path="/codeChallenge2" component={CodeChallenge2} />
       </main>
     </div>
   );
