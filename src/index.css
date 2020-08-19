@@ -7,7 +7,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.code-block {
+  margin: 0 auto;
+  width: 30vw;
+  border: 1px solid gray;
+  padding: 1rem;
+  background: black;
+  color: #66ff00;
+  font-weight: bold;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  display: block;
+  text-align: left;
+}
+
+main {
+  margin: 0 6rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+form {
+  background: rgba(185, 19, 135, 0.5);
+  width: 50vw;
+  margin: 0.5em auto;
+  padding: 1em;
+}
+
+form .code-block {
+  margin-bottom: 1em;
+}
+form label {
+  padding: 1.5em;
+  font-weight: bold;
+}
+
+form input {
+  line-height: 1.5em;
 }
