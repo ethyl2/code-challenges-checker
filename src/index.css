@@ -35,6 +35,30 @@ span {
   font-weight: bold;
 }
 
+nav {
+  background: black;
+  color: orange;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding: 1em 0;
+}
+
+nav a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 0.75em;
+  transition: all 0.2s ease-in;
+}
+
+nav a:hover {
+  font-style: italic;
+  transform: scale(1.1);
+  color: yellow;
+}
+
 form {
   background: rgba(185, 19, 135, 0.5);
   width: 50vw;
