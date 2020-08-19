@@ -28,7 +28,7 @@ export default function InputForm1() {
         <code>{'\u007d'}</code>
       </div>
       <label htmlFor="test1">Output 1</label>
-      <input name="test1" defaultValue="test" ref={register} />
+      <input name="test1" ref={register} />
 
       <button type="submit">Check</button>
       <p>{test1Message}</p>
